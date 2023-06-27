@@ -14,7 +14,6 @@ export const ListRepos = () => {
         return response.data
     })
 
-
     return <>
         <ul>
             {isFetching && <p>Loading...</p>}
